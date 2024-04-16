@@ -1,0 +1,220 @@
+ERROR - 2022-08-26 18:04:39 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_anggota_kelompok' doesn't exist in C:\wamp64\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\simasjid-ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\simasjid-ci4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\simasjid-ci4\app\Views\qurban\v_kelompok_qurban.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\simasjid-ci4\system\View\View.php(213): include('C:\\wamp64\\www\\s...')
+#6 C:\wamp64\www\simasjid-ci4\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\simasjid-ci4\system\Common.php(1137): CodeIgniter\View\View->render('qurban/v_kelomp...', Array, true)
+#8 C:\wamp64\www\simasjid-ci4\app\Views\v_template_admin.php(289): view('qurban/v_kelomp...')
+#9 C:\wamp64\www\simasjid-ci4\system\View\View.php(213): include('C:\\wamp64\\www\\s...')
+#10 C:\wamp64\www\simasjid-ci4\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\wamp64\www\simasjid-ci4\system\Common.php(1137): CodeIgniter\View\View->render('v_template_admi...', Array, true)
+#12 C:\wamp64\www\simasjid-ci4\app\Controllers\PesertaQurban.php(42): view('v_template_admi...', Array)
+#13 C:\wamp64\www\simasjid-ci4\system\CodeIgniter.php(904): App\Controllers\PesertaQurban->KelompokQurban('1')
+#14 C:\wamp64\www\simasjid-ci4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+#15 C:\wamp64\www\simasjid-ci4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\wamp64\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-08-26 18:04:39 --> Table 'db-simasjid-ci4.tbl_anggota_kelompok' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_anggota_kelompok`
+WHERE `id_kelompok` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_anggota_kelompok`
+WHERE `id_kelompok` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_anggota_kelompok`
+WHERE `id_kelompok` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_anggota_kelompok`
+WHERE `id_kelompok` = :id_kelompok:', [...], false)
+ 5 APPPATH\Views\qurban\v_kelompok_qurban.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\qurban\\v_kelompok_qurban.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('qurban/v_kelompok_qurban', [], true)
+ 9 APPPATH\Views\v_template_admin.php(289): view('qurban/v_kelompok_qurban')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+13 APPPATH\Controllers\PesertaQurban.php(42): view('v_template_admin', [...])
+14 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PesertaQurban->KelompokQurban('1')
+15 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+16 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 18:05:00 --> mysqli_sql_exception: Table 'db-simasjid-ci4.tbl_anggota_kelompok' doesn't exist in C:\wamp64\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\simasjid-ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\simasjid-ci4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\simasjid-ci4\app\Views\qurban\v_kelompok_qurban.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\simasjid-ci4\system\View\View.php(213): include('C:\\wamp64\\www\\s...')
+#6 C:\wamp64\www\simasjid-ci4\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\simasjid-ci4\system\Common.php(1137): CodeIgniter\View\View->render('qurban/v_kelomp...', Array, true)
+#8 C:\wamp64\www\simasjid-ci4\app\Views\v_template_admin.php(289): view('qurban/v_kelomp...')
+#9 C:\wamp64\www\simasjid-ci4\system\View\View.php(213): include('C:\\wamp64\\www\\s...')
+#10 C:\wamp64\www\simasjid-ci4\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\wamp64\www\simasjid-ci4\system\Common.php(1137): CodeIgniter\View\View->render('v_template_admi...', Array, true)
+#12 C:\wamp64\www\simasjid-ci4\app\Controllers\PesertaQurban.php(42): view('v_template_admi...', Array)
+#13 C:\wamp64\www\simasjid-ci4\system\CodeIgniter.php(904): App\Controllers\PesertaQurban->KelompokQurban('1')
+#14 C:\wamp64\www\simasjid-ci4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+#15 C:\wamp64\www\simasjid-ci4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\wamp64\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-08-26 18:05:00 --> Table 'db-simasjid-ci4.tbl_anggota_kelompok' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbl_anggota_kelompok`
+WHERE `id_kelompok` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_anggota_kelompok`
+WHERE `id_kelompok` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_anggota_kelompok`
+WHERE `id_kelompok` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_anggota_kelompok`
+WHERE `id_kelompok` = :id_kelompok:', [...], false)
+ 5 APPPATH\Views\qurban\v_kelompok_qurban.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\qurban\\v_kelompok_qurban.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('qurban/v_kelompok_qurban', [], true)
+ 9 APPPATH\Views\v_template_admin.php(289): view('qurban/v_kelompok_qurban')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+13 APPPATH\Controllers\PesertaQurban.php(42): view('v_template_admin', [...])
+14 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PesertaQurban->KelompokQurban('1')
+15 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+16 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 18:08:31 --> mysqli_sql_exception: Column 'nama_kelompok' cannot be null in C:\wamp64\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\simasjid-ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\simasjid-ci4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\simasjid-ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\simasjid-ci4\app\Models\ModelPesertaQurban.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\simasjid-ci4\app\Controllers\PesertaQurban.php(75): App\Models\ModelPesertaQurban->InsertKelompok(Array)
+#6 C:\wamp64\www\simasjid-ci4\system\CodeIgniter.php(904): App\Controllers\PesertaQurban->InsertPeserta()
+#7 C:\wamp64\www\simasjid-ci4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+#8 C:\wamp64\www\simasjid-ci4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-26 18:08:31 --> Column 'nama_kelompok' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbl_kelompok` (`id_tahun`, `nama_kelompok`) VALUES (\'1\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_kelompok` (`id_tahun`, `nama_kelompok`) VALUES (\'1\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_kelompok` (`id_tahun`, `nama_kelompok`) VALUES (\'1\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_kelompok` (`id_tahun`, `nama_kelompok`) VALUES (:id_tahun:, :nama_kelompok:)', [...], false)
+ 5 APPPATH\Models\ModelPesertaQurban.php(25): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\PesertaQurban.php(75): App\Models\ModelPesertaQurban->InsertKelompok([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\PesertaQurban->InsertPeserta()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesertaQurban))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 20:03:02 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(29): CodeIgniter\Model->__call('AllDataKasMasjid', [])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 20:17:10 --> A non-numeric value encountered
+in APPPATH\Controllers\Home.php on line 51.
+ 1 APPPATH\Controllers\Home.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Home.php', 51, [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->PesertaQurban()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 21:30:22 --> Undefined variable: agenda
+in APPPATH\Views\v_rekening.php on line 33.
+ 1 APPPATH\Views\v_rekening.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: agenda', 'APPPATH\\Views\\v_rekening.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_rekening.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_rekening', [], true)
+ 5 APPPATH\Views\v_template_admin.php(297): view('v_rekening')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Rekening.php(25): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rekening->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekening))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 21:34:43 --> Undefined index: no_rekening
+in APPPATH\Views\v_rekening.php on line 41.
+ 1 APPPATH\Views\v_rekening.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: no_rekening', 'APPPATH\\Views\\v_rekening.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_rekening.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_rekening', [], true)
+ 5 APPPATH\Views\v_template_admin.php(297): view('v_rekening')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Rekening.php(25): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rekening->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekening))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 21:35:28 --> Undefined index: atas-nama
+in APPPATH\Views\v_rekening.php on line 42.
+ 1 APPPATH\Views\v_rekening.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: atas-nama', 'APPPATH\\Views\\v_rekening.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_rekening.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_rekening', [], true)
+ 5 APPPATH\Views\v_template_admin.php(297): view('v_rekening')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Rekening.php(25): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rekening->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekening))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-26 21:38:25 --> mysqli_sql_exception: Unknown column 'no_rekening' in 'field list' in C:\wamp64\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\wamp64\www\simasjid-ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\wamp64\www\simasjid-ci4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\wamp64\www\simasjid-ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\wamp64\www\simasjid-ci4\app\Models\ModelRekening.php(17): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\simasjid-ci4\app\Controllers\Rekening.php(35): App\Models\ModelRekening->InsertData(Array)
+#6 C:\wamp64\www\simasjid-ci4\system\CodeIgniter.php(904): App\Controllers\Rekening->InsertData()
+#7 C:\wamp64\www\simasjid-ci4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekening))
+#8 C:\wamp64\www\simasjid-ci4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-26 21:38:25 --> Unknown column 'no_rekening' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbl_rekening` (`nama_bank`, `no_rekening`, `atas_nama`) VALUES (\'Bank Mandiri\', NULL, \'Masjid Nurul Iman\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_rekening` (`nama_bank`, `no_rekening`, `atas_nama`) VALUES (\'Bank Mandiri\', NULL, \'Masjid Nurul Iman\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_rekening` (`nama_bank`, `no_rekening`, `atas_nama`) VALUES (\'Bank Mandiri\', NULL, \'Masjid Nurul Iman\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_rekening` (`nama_bank`, `no_rekening`, `atas_nama`) VALUES (:nama_bank:, :no_rekening:, :atas_nama:)', [...], false)
+ 5 APPPATH\Models\ModelRekening.php(17): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Rekening.php(35): App\Models\ModelRekening->InsertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rekening->InsertData()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekening))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-26 21:41:17 --> Undefined variable: rekening
+in APPPATH\Views\v_rekening.php on line 100.
+ 1 APPPATH\Views\v_rekening.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rekening', 'APPPATH\\Views\\v_rekening.php', 100, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_rekening.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_rekening', [], true)
+ 5 APPPATH\Views\v_template_admin.php(297): view('v_rekening')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Rekening.php(25): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Rekening->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekening))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

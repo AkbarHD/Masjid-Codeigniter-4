@@ -1,0 +1,239 @@
+CRITICAL - 2022-08-27 14:55:52 --> Invalid file: front-end/v_donasi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front-end/v_donasi.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front-end/v_donasi', [], true)
+ 3 APPPATH\Views\v_template.php(115): view('front-end/v_donasi')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template', [], true)
+ 7 APPPATH\Controllers\Home.php(89): view('v_template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->Donasi()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-27 18:16:37 --> Undefined index: nama_bank
+in APPPATH\Views\v_donasi_masuk.php on line 43.
+ 1 APPPATH\Views\v_donasi_masuk.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_bank', 'APPPATH\\Views\\v_donasi_masuk.php', 43, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_donasi_masuk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_donasi_masuk', [], true)
+ 5 APPPATH\Views\v_template_admin.php(297): view('v_donasi_masuk')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(72): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-27 18:23:00 --> Undefined index: tbl_donasi.nama_bank
+in APPPATH\Views\v_donasi_masuk.php on line 43.
+ 1 APPPATH\Views\v_donasi_masuk.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tbl_donasi.nama_bank', 'APPPATH\\Views\\v_donasi_masuk.php', 43, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_donasi_masuk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_donasi_masuk', [], true)
+ 5 APPPATH\Views\v_template_admin.php(297): view('v_donasi_masuk')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(72): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-27 18:24:31 --> Undefined index: tbl_donasinama_bank
+in APPPATH\Views\v_donasi_masuk.php on line 43.
+ 1 APPPATH\Views\v_donasi_masuk.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tbl_donasinama_bank', 'APPPATH\\Views\\v_donasi_masuk.php', 43, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_donasi_masuk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_donasi_masuk', [], true)
+ 5 APPPATH\Views\v_template_admin.php(297): view('v_donasi_masuk')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(72): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-27 18:24:52 --> Undefined index: nama_pengirim
+in APPPATH\Views\v_donasi_masuk.php on line 45.
+ 1 APPPATH\Views\v_donasi_masuk.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_pengirim', 'APPPATH\\Views\\v_donasi_masuk.php', 45, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_donasi_masuk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_donasi_masuk', [], true)
+ 5 APPPATH\Views\v_template_admin.php(297): view('v_donasi_masuk')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(72): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-27 18:25:26 --> Undefined index: jumlah
+in APPPATH\Views\v_donasi_masuk.php on line 48.
+ 1 APPPATH\Views\v_donasi_masuk.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlah', 'APPPATH\\Views\\v_donasi_masuk.php', 48, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_donasi_masuk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_donasi_masuk', [], true)
+ 5 APPPATH\Views\v_template_admin.php(297): view('v_donasi_masuk')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(72): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-27 18:25:36 --> Undefined index: bukti
+in APPPATH\Views\v_donasi_masuk.php on line 50.
+ 1 APPPATH\Views\v_donasi_masuk.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: bukti', 'APPPATH\\Views\\v_donasi_masuk.php', 50, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_donasi_masuk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_donasi_masuk', [], true)
+ 5 APPPATH\Views\v_template_admin.php(297): view('v_donasi_masuk')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(72): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-27 18:29:53 --> Undefined index: jenis_donasi
+in APPPATH\Views\v_donasi_masuk.php on line 52.
+ 1 APPPATH\Views\v_donasi_masuk.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jenis_donasi', 'APPPATH\\Views\\v_donasi_masuk.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_donasi_masuk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_donasi_masuk', [], true)
+ 5 APPPATH\Views\v_template_admin.php(297): view('v_donasi_masuk')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Admin.php(72): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-27 18:31:36 --> mysqli_sql_exception: Unknown column 'status' in 'order clause' in C:\wamp64\www\simasjid-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\simasjid-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_don...', 0)
+#1 C:\wamp64\www\simasjid-ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_don...')
+#2 C:\wamp64\www\simasjid-ci4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_don...')
+#3 C:\wamp64\www\simasjid-ci4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_don...', Array, false)
+#4 C:\wamp64\www\simasjid-ci4\app\Models\ModelAdmin.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\simasjid-ci4\app\Controllers\Admin.php(70): App\Models\ModelAdmin->AllDonasi()
+#6 C:\wamp64\www\simasjid-ci4\system\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+#7 C:\wamp64\www\simasjid-ci4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\wamp64\www\simasjid-ci4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\simasjid-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-27 18:31:36 --> Unknown column 'status' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `status` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `status` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `status` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_donasi`.`no_rek` as `no_rek_pengirim`, `tbl_donasi`.`nama_bank` as `nama_bank_pengirim`, `tbl_donasi`.`nama_pengirim`, `tbl_donasi`.`jumlah`, `tbl_donasi`.`bukti`, `tbl_donasi`.`jenis_donasi`, `tbl_rekening`.`no_rek` as `no_rek_tujuan`, `tbl_rekening`.`nama_bank` as `nama_bank_tujuan`
+FROM `tbl_donasi`
+LEFT JOIN `tbl_rekening` ON `tbl_rekening`.`id_rekening` = `tbl_donasi`.`id_rekening`
+ORDER BY `status` ASC', [], false)
+ 5 APPPATH\Models\ModelAdmin.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin.php(70): App\Models\ModelAdmin->AllDonasi()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin->DonasiMasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-27 20:24:32 --> Undefined variable: web
+in APPPATH\Views\kas-masjid\v_laporan_kas_masjid.php on line 53.
+ 1 APPPATH\Views\kas-masjid\v_laporan_kas_masjid.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: web', 'APPPATH\\Views\\kas-masjid\\v_laporan_kas_masjid.php', 53, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_laporan_kas_masjid.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kas-masjid/v_laporan_kas_masjid', [], true)
+ 5 APPPATH\Views\v_template_admin.php(297): view('kas-masjid/v_laporan_kas_masjid')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\KasMasjid.php(137): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasMasjid->Laporan()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-27 20:26:09 --> Undefined property: App\Controllers\KasMasjid::$ModelAdmin
+in APPPATH\Controllers\KasMasjid.php on line 136.
+ 1 APPPATH\Controllers\KasMasjid.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\KasMasjid::$ModelAdmin', 'APPPATH\\Controllers\\KasMasjid.php', 136, [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasMasjid->Laporan()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-27 22:02:57 --> Undefined variable: kas
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 13.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kas', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(152): view('kas-masjid/v_data_laporan')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-27 22:03:06 --> Undefined variable: kas
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 13.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kas', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(152): view('kas-masjid/v_data_laporan')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-27 22:03:21 --> Undefined variable: kas
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 13.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kas', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(152): view('kas-masjid/v_data_laporan')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-27 22:03:24 --> Undefined variable: kas
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 13.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kas', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(152): view('kas-masjid/v_data_laporan')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-27 22:04:45 --> Undefined variable: kas
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 13.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kas', 'APPPATH\\Views\\kas-masjid\\v_data_laporan.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(153): view('kas-masjid/v_data_laporan')
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-27 22:31:24 --> Undefined property: App\Controllers\KasSosial::$ModelAdmin
+in APPPATH\Controllers\KasSosial.php on line 136.
+ 1 APPPATH\Controllers\KasSosial.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\KasSosial::$ModelAdmin', 'APPPATH\\Controllers\\KasSosial.php', 136, [])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasSosial->Laporan()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasSosial))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
